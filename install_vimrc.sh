@@ -1,6 +1,4 @@
 #!/bin/sh
 
-set -e
-
 cat ./persi.vimrc > ~/.vimrc
-echo -e "🍺 Installed the Vim configuration successfully! Enjoy :-)"
+echo "\033[32m🍺 Installed the Vim configuration successfully! Enjoy :-)\033[0m"
