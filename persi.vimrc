@@ -2,7 +2,7 @@ set nocompatible "纯VIM
 :nnoremap Q <Nop> "屏蔽Q,以免进入Ex模式
 syntax enable "语法高亮
 set history=50 "历史记录50条
-set foldcolumn=1 "margin left
+"set foldcolumn=1 "margin left
 set noeb " 去掉输入错误的提示声音
 set noerrorbells
 set novisualbell
@@ -34,10 +34,10 @@ set whichwrap+=<,>,h,l
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set langmenu=en_US
-; set mouse=a
+"set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
-; set helplang=cn
+"set helplang=cn
 
 set ruler "显示当前位置
 set number "显示行号
