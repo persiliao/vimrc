@@ -34,10 +34,10 @@ set whichwrap+=<,>,h,l
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set langmenu=en_US
-set mouse=a
+; set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
-set helplang=cn
+; set helplang=cn
 
 set ruler "显示当前位置
 set number "显示行号
