@@ -65,14 +65,14 @@ set ignorecase "搜索逐字符高亮
 set hlsearch "高亮搜索
 set incsearch "搜索中匹配
 
-:inoremap ( ()<ESC>i
-:inoremap ) <c-r>=ClosePair(')')<CR>
-:inoremap { {<CR>}<ESC>O
-:inoremap } <c-r>=ClosePair('}')<CR>
-:inoremap [ []<ESC>i
-:inoremap ] <c-r>=ClosePair(']')<CR>
-:inoremap " ""<ESC>i
-:inoremap ' ''<ESC>i
+":inoremap ( ()<ESC>i
+":inoremap ) <c-r>=ClosePair(')')<CR>
+":inoremap { {<CR>}<ESC>O
+":inoremap } <c-r>=ClosePair('}')<CR>
+":inoremap [ []<ESC>i
+":inoremap ] <c-r>=ClosePair(']')<CR>
+":inoremap " ""<ESC>i
+":inoremap ' ''<ESC>i
 function! ClosePair(char)
     if getline('.')[col('.') - 1] == a:char
         return "\<Right>"
