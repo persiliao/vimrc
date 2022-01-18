@@ -50,9 +50,9 @@ set autoindent "自动缩进
 set smartindent "
 set wrap
 set cindent "C缩进
-set tabstop=4 "硬TAB
-set softtabstop=4 "软TAB
-set shiftwidth=4 "缩进空格数
+set tabstop=2 "硬TAB
+set softtabstop=2 "软TAB
+set shiftwidth=2 "缩进空格数
 set expandtab "空格替换TAB
 set smarttab "智能TAB
 
